@@ -9,6 +9,7 @@ val api = Retrofit.Builder()
     .build()
     .create(ApiInterface::class.java)
 fun main() {
+    val b = "asdfgsdafs"
     println(
         api.getHouseList()
             .execute()
